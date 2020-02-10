@@ -30,6 +30,11 @@ public class AppTest
     }
 
     @Test
+    public void print()
+    {System.out.println("Im in test sample one");}
+    
+    
+    @Test
     public void testAppMain()
     {
         App.main(null);
